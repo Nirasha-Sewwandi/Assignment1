@@ -1,0 +1,7 @@
+[container.image]
+repository="nirasha523" # Docker hub name
+name="employee_management" # container name
+tag="v0.1.0"
+
+[settings]
+buildImage=true # you can make this false if you don't want to build the image and you just need the Dockerfile
