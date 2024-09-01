@@ -8,6 +8,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 # Compile the Ballerina project
+RUN bal pack
 RUN bal build
 
 # Expose the default port that the Ballerina service listens to
