@@ -318,7 +318,7 @@ modules = [
 
 [[package]]
 org = "sns"
-name = "employee_management"
+name = "Assignment1"
 version = "0.1.0"
 dependencies = [
 	{org = "ballerina", name = "cloud"},
@@ -328,6 +328,6 @@ dependencies = [
 	{org = "ballerinai", name = "observe"}
 ]
 modules = [
-	{org = "sns", packageName = "employee_management", moduleName = "employee_management"}
+	{org = "sns", packageName = "Assignment1", moduleName = "Assignment1"}
 ]
 
