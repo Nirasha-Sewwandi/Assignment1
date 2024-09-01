@@ -1,5 +1,5 @@
 # Use an official Ballerina runtime as a parent image
-FROM ballerina/ballerina:2201.3.1
+FROM ballerina/ballerina:2201.5.0
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 # Compile the Ballerina project
-RUN bal build --skip-tests
+RUN bal build
 
 # Expose the default port that the Ballerina service listens to
 EXPOSE 9090
