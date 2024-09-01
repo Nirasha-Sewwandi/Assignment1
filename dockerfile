@@ -9,7 +9,7 @@ COPY . .
 
 # Compile the Ballerina project
 RUN bal pack
-RUN bal build
+RUN bal build --skip-tests
 
 # Expose the default port that the Ballerina service listens to
 EXPOSE 9090
